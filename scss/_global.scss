@@ -1,0 +1,56 @@
+@import "vars";
+
+html{
+    box-sizing: border-box;
+    
+}
+
+
+
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+
+body{
+
+   font-family: $font-defaul;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 25px;
+}
+
+.menu_btn{
+    display: none;
+}
+
+@import "vars";
+
+html{
+    box-sizing: border-box;
+    
+}
+
+
+
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+
+
+.menu_btn{
+    display: none;
+}
